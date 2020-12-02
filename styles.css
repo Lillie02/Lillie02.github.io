@@ -1,0 +1,32 @@
+
+h1 
+{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+h3
+{
+    text-align: center;
+    margin: auto;
+    padding-top: 1%;
+    font-size: 30px;
+    color: white;
+}
+
+body
+{
+    font-family: monospace;
+    margin-right: auto;
+    margin-left: auto;  
+    min-width: 900px;
+    width: 80%;
+    padding-top: 15%;
+    background-color: #55CDFC;
+}
+
+
+  
+
