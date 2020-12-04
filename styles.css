@@ -1,19 +1,23 @@
 
-h1 
+.titleline
 {
+    display: block;
     font-size: 60px;
     color: white;
     text-align: center;
     margin: auto;
+    font-weight: bold;
 }
 
-h3
+.status
 {
+    display: block;
     text-align: center;
     margin: auto;
     padding-top: 1%;
     font-size: 30px;
     color: white;
+    font-weight: bold;
 }
 
 body
@@ -27,12 +31,12 @@ body
     background-color: #53b3da;
 }
 
-.Twitter, .Instagram 
+.twitter, .instagram
 {
     margin-left: 1.5%;
 }
 
-.Instagram img, .Discord img
+.instagram img, .discord img, .twitter img
 {
     position:absolute;
     width: 50px;
@@ -44,18 +48,7 @@ body
     transform: translate(-50%, -50%);
 }
 
-.Twitter img
-{
-    position:absolute;
-    width: 75px;
-    height: 75px;
-    top: 50%;
-    left:50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-.Twitter, .Instagram, .Discord 
+.twitter, .instagram, .discord
 {
     background-color: transparent;
     position:relative;
@@ -63,21 +56,21 @@ body
     padding-left: 50px;
     padding-right: 8px;
     border: none;
-    outline:none;  
+    outline: none;  
 }
 
-.Twitter img:hover, .Instagram img:hover
+.twitter img:hover, .instagram img:hover
 {
     filter: invert(0.4) sepia(1) saturate(16.1) hue-rotate(295.2deg) brightness(0.97);
     cursor: pointer;
 }
 
-.Discord img:hover
+.discord img:hover
 {
     filter: brightness(0.1);
 }
 
-.Icons
+.icons
 {
     text-align: center;
     font-size: 0;
