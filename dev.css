@@ -27,29 +27,12 @@ body
     background-color: #53b3da;
 }
 
-.Discord 
-{
-    position: relative;
-}
-
 .Twitter, .Instagram 
 {
     margin-left: 1.5%;
 }
 
-.Discord img
-{
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    top: 50%;
-    left:50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.Instagram img
+.Instagram img, .Discord img
 {
     position:absolute;
     width: 50px;
@@ -80,23 +63,22 @@ body
     padding-left: 50px;
     padding-right: 8px;
     border: none;
-    cursor: pointer;
     outline:none;  
 }
 
-button {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
-    animation: none;
+.Twitter img:hover, .Instagram img:hover
+{
+    filter: invert(0.4) sepia(1) saturate(16.1) hue-rotate(295.2deg) brightness(0.97);
+    cursor: pointer;
+}
+
+.Discord img:hover
+{
+    filter: brightness(0.1);
 }
 
 .Icons
 {
     text-align: center;
-}
-
-.Icons 
-{
     font-size: 0;
 }
